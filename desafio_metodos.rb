@@ -37,4 +37,9 @@ def hola(palabra)
 end
 puts 'ingrese hola'
 hola('')
-
+puts '6) Un método puede llamar a otros métodos:'
+def draw_line(size)
+    puts '*' * size
+    end
+    draw_line 8
+     draw_line 10
